@@ -1,0 +1,37 @@
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  
+  .ventana {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #00ff00;
+    width: 350px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  #reloj {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 3px;
+  }
+  
